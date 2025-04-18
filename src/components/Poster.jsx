@@ -30,7 +30,7 @@ export default function Poster() {
                             <button className="poster-btn btn rounded-1 text-white px-4 py-2">Buy Now!</button>
                         </div>
                         <div className="poster-right col-lg-6 col-12">
-                                <img className="poster-img img-fluid" src="/src/assets/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="jpl" />
+                                <img className="poster-img img-fluid" src={import.meta.env.BASE_URL + "/assets/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png"} alt="jpl" />
                         </div>
                     </div>
                 </div>

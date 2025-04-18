@@ -19,7 +19,7 @@ export default function Featured() {
                 </div>
                 <div className="mt-5 row row-gap-4">
                     <div className="bg-black pt-5 px-4 col-md-6 col-12 position-relative rounded-2">
-                        <img className="img-fluid" src="./src/assets/images/ps5-slim-goedkope-playstation_large 1.png" alt="ps5" />
+                        <img className="img-fluid" src={import.meta.env.BASE_URL + "/assets/images/ps5-slim-goedkope-playstation_large 1.png"} alt="ps5" />
                         <div className="playstaion-text d-flex flex-column text-white px-4 mb-4">
                             <h4 className="fs-5 mt-3">PlayStation 5</h4>
                             <p className="">Black and White version of the PS5 <br /> coming out on sale.</p>
@@ -28,7 +28,7 @@ export default function Featured() {
                     </div>
                     <div className="d-flex flex-column gap-4 col-md-6 col-12">
                     <div className="position-relative rounded-2" style={{ backgroundColor: "#0D0D0D" }}>
-                        <img className="woman-img img-fluid ms-5" src="./src/assets/images/attractive-woman-wearing-hat-posing-black-background 1.png" alt="ps5" />
+                        <img className="woman-img img-fluid ms-5" src={import.meta.env.BASE_URL + "/assets/images/attractive-woman-wearing-hat-posing-black-background 1.png"} alt="ps5" />
                         <div className="playstaion-text d-flex flex-column text-white px-4 mb-4">
                             <h4 className="fs-5 mt-3">Women’s Collections</h4>
                             <p className="">Featured woman collections that <br /> give you another vibe.</p>
@@ -37,7 +37,7 @@ export default function Featured() {
                     </div>
                     <div className="small-divs d-flex justify-content-between gap-4">
                     <div className="position-relative rounded-2 px-5 py-3" style={{ backgroundColor: "#0D0D0D" }}>
-                        <img className="img-fluid" src="./src/assets/images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png" alt="ps5" />
+                        <img className="img-fluid" src={import.meta.env.BASE_URL + "/assets/images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png 1.png"} alt="ps5" />
                         <div className="playstaion-text d-flex flex-column text-white px-4 mb-4">
                             <h4 className="fs-5 mt-3">Speakers</h4>
                             <p className="">Amazon wireless speakers</p>
@@ -45,7 +45,7 @@ export default function Featured() {
                         </div>
                     </div>
                     <div className="position-relative rounded-2 px-5 py-3" style={{ backgroundColor: "#0D0D0D" }}>
-                        <img className="img-fluid" src="./src/assets/images/652e82cd70aa6522dd785109a455904c.png" alt="ps5" />
+                        <img className="img-fluid" src={import.meta.env.BASE_URL + "/assets/images/652e82cd70aa6522dd785109a455904c.png"} alt="ps5" />
                         <div className="playstaion-text d-flex flex-column text-white px-4 mb-4">
                             <h4 className="fs-5 mt-3">Perfume</h4>
                             <p className="">GUCCI INTENSE OUD EDP</p>

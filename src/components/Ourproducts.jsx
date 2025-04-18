@@ -33,7 +33,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -55,7 +55,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -77,7 +77,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -99,7 +99,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -121,7 +121,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -147,7 +147,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -173,7 +173,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
@@ -199,7 +199,7 @@ export default function Ourproducts() {
 
                     <div className="col-lg-3 col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src={import.meta.env.BASE_URL + "/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png"} className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-2 align-items-center">
