@@ -1,0 +1,27 @@
+.featured {
+    margin-top: 140px;
+}
+.playstaion-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.playstaion-text h4 {
+    letter-spacing: 1.5px;
+}
+.playstaion-text p {
+    font-size: 0.7rem;
+    letter-spacing: 0.8px;
+}
+@media (max-width: 1100px) {
+    .woman-img {
+        margin: 0!important;
+    }
+    
+}
+@media (max-width: 576px) {
+    .small-divs {
+        flex-direction: column;
+        align-items: center;
+    }   
+}

@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 140px;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+.footer-list-item {
+    margin-bottom: 1rem;
+}
+.sub-input-li {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+}
+.sub-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.social-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.footer-bottom {
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.39);
+}

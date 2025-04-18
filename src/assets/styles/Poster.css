@@ -1,0 +1,38 @@
+.poster {
+    margin-top: 140px;
+}
+.poster-img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+.poster-h4 {
+    color: #00FF66;
+}
+.poster-p {
+    line-height: 1.2;
+}
+.poster-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+.poster-btn {
+    background-color: #00FF66;
+}
+@media (max-width: 476px) {
+    .poster-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .poster-circle h5{
+        font-size: 1rem;
+    }
+    .poster-circle p{
+        font-size: 0.7rem;
+    }
+    
+}

@@ -1,0 +1,23 @@
+.services {
+    margin-top: 140px;
+}
+.services-container {
+    padding: 0 5rem;
+}
+.services-card img {
+    width: 60px;
+}
+.services-card p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+@media (max-width: 1200px) {
+    .services-container {
+        padding: 0 2rem;
+    }
+}
+@media (max-width: 400px) {
+    .services-container {
+        padding: 0;
+    }
+}

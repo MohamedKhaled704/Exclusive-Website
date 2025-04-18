@@ -1,0 +1,7 @@
+@media (max-width: 467px) {
+    .preheader-p {
+        font-size: 0.75rem;
+        display: flex;
+        flex-direction: column;
+    }
+}

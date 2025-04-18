@@ -1,0 +1,29 @@
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: #717171;
+}
+@media (max-width: 767.98px) {
+    .border-md-0 {
+        border: none !important;
+    }
+}
+@media (max-width: 1400px) {
+    .hero-poster {
+        border: none !important;
+        margin: 0 !important;
+    }
+}
+@media (max-width: 400px) {
+    .hero-poster {
+        padding-left: 10px !important;
+        padding-right: 0 !important;
+    }
+}

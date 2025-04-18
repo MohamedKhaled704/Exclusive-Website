@@ -1,0 +1,15 @@
+#header-search:focus {
+    box-shadow: none;
+}
+#header-icons svg {
+    cursor: pointer;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+@media (max-width: 991px) {
+    #header-icons {
+        justify-content: flex-start !important;
+        margin-top: 10px !important;
+    }
+}

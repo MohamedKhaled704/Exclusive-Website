@@ -1,0 +1,26 @@
+.our-products {
+    margin-top: 70px;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.dot:active {
+    outline: 2px solid #000;
+}
+.dot-green {
+    background-color: #184A48;
+}
+.dot-red {
+    background-color: #DB4444;
+}
+.dot-black {
+    background-color: #000;
+}
+.dot-yellow {
+    background-color: #FFD700;
+}

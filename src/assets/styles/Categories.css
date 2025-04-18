@@ -1,0 +1,41 @@
+.cat-box {
+    transition: background-color 0.7s ease;
+    cursor: pointer;
+}
+.cat-box:hover {
+background-color: #DB4444;
+color: white;
+border: none!important;
+}
+.cat-box:hover svg path, .cat-box:hover svg line {
+    stroke: white;
+    transition: stroke 0.3s ease;
+}
+@media (max-width: 768px) {
+    .cat-head {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .pagination-button svg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cat-head {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .pagination-button svg {
+        width: 28px;
+        height: 28px;
+    }
+}
