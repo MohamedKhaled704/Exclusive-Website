@@ -42,7 +42,7 @@ export default function Footer() {
                         <li className="footer-list-item"><h4><a href="#">Download App</a></h4></li>
                         <li className="footer-list-item"><a href="#">Save $3 with App New User Only</a></li>
                         <li className="footer-list-item"><a href="#">
-                            <img src="/src/assets/images/Frame 719.png" alt="" />
+                            <img src={import.meta.env.BASE_URL + "/assets/images/Frame 719.png"} alt="" />
                         </a></li>
                         <li className="footer-list-item">
                             <ul className="social-list">
