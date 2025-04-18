@@ -9,8 +9,12 @@ export default function Products() {
     const [error, setError] = useState(null);
 
     const isURL = (str) => /^(https?:\/\/)/.test(str);
+    // const getImageSource = (imagePath) => {
+    //     return isURL(imagePath) ? imagePath : `./src/assets/images/${imagePath}.png`;
+    // };
+
     const getImageSource = (imagePath) => {
-        return isURL(imagePath) ? imagePath : `/src/assets/images/${imagePath}.png`;
+        return isURL(imagePath) ? imagePath : `${import.meta.env.BASE_URL}assets/images/${imagePath}.png`;
     };
 
     useEffect(() => {

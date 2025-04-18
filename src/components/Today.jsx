@@ -7,7 +7,7 @@ import "../assets/styles/Today.css";
 export default function Today() {
     const isURL = (str) => /^(https?:\/\/)/.test(str);
     const getImageSource = (imagePath) => {
-        return isURL(imagePath) ? imagePath : `/src/assets/images/${imagePath}.png`;
+        return isURL(imagePath) ? imagePath : `${import.meta.env.BASE_URL}assets/images/${imagePath}.png`;
     };
     const [currentPage, setCurrentPage] = useState(1);
     const productsPerPage = 4;

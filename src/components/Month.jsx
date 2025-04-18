@@ -21,7 +21,7 @@ export default function Month() {
 
                     <div className="col-lg col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="/src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src="./src/assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">The north coat</h5>
                         <div className="d-flex gap-3 align-items-center">
@@ -44,7 +44,7 @@ export default function Month() {
 
                     <div className="col-lg col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="/src/assets/images/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src="./src/assets/images/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png" className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">Gucci duffle bag</h5>
                         <div className="d-flex gap-3 align-items-center">
@@ -68,7 +68,7 @@ export default function Month() {
 
                     <div className="col-lg col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center align-items-center">
-                            <picture><img src="/src/assets/images/gammaxx-l240-argb-1-500x500 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src="./src/assets/images/gammaxx-l240-argb-1-500x500 1.png" className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">RGB liquid CPU Cooler</h5>
                         <div className="d-flex gap-3 align-items-center">
@@ -92,7 +92,7 @@ export default function Month() {
 
                     <div className="col-lg col-sm-6 col-12 d-flex flex-column gap-2">
                         <div className="month-pic-div border-0 px-2 py-2 bg-body-tertiary d-flex justify-content-center">
-                            <picture><img src="/src/assets/images/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png" className="img-fluid " alt="..." /></picture>
+                            <picture><img src="./src/assets/images/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png" className="img-fluid " alt="..." /></picture>
                         </div>
                         <h5 className="my-0">Small BookSelf</h5>
                         <div className="d-flex gap-3 align-items-center">

@@ -17,7 +17,7 @@ export default function Dashboard() {
     const debouncedSearchTerm = useDebounce(searchTerm, 500); 
     const isURL = (str) => /^(https?:\/\/)/.test(str);
     const getImageSource = (imagePath) => {
-        return isURL(imagePath) ? imagePath : `/src/assets/images/${imagePath}.png`;
+        return isURL(imagePath) ? imagePath : `${import.meta.env.BASE_URL}assets/images/${imagePath}.png`;
     };
 
 
