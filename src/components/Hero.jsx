@@ -7,24 +7,24 @@ export default function Hero() {
     const slides = [
         {
             id: 1,
-            logo: "./src/assets/images/1200px-Apple_gray_logo 1.png",
+            logo: "/assets/images/1200px-Apple_gray_logo 1.png",
             title: "iPhone 14 Series",
             discount: "Up to 10% ",
-            image: "./src/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
+            image: "/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
         },
         {
             id: 2,
-            logo: "./src/assets/images/1200px-Apple_gray_logo 1.png",
+            logo: "/assets/images/1200px-Apple_gray_logo 1.png",
             title: "playstation 5",
             discount: "Up to 8% ",
-            image: "./src/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
+            image: "/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
         },
         {
             id: 3,
-            logo: "./src/assets/images/1200px-Apple_gray_logo 1.png",
+            logo: "/assets/images/1200px-Apple_gray_logo 1.png",
             title: "iPhone 16 Series",
             discount: "Up to 3% ",
-            image: "./src/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
+            image: "/assets/images/hero_endframe__cvklg0xk3w6e_large 2.png"
         }
     ];
 
@@ -78,7 +78,7 @@ export default function Hero() {
                                 <div className="row col-12">
                                     <div className="hero-poster-text text-white col-md-6 d-flex flex-column gap-3">
                                         <div className="d-flex align-items-center">
-                                            <picture><img src={slides[slide].logo} alt="apple" /></picture>
+                                            <picture><img src={import.meta.env.BASE_URL + slides[slide].logo} alt="apple" /></picture>
                                             <p className='mb-0 ms-4'><small>{slides[slide].title}</small></p>
                                         </div>
                                         <h3 className='fs-\=[=] fs-md-2 fw-semibold'>{slides[slide].discount} <br />off Voucher</h3>
@@ -90,7 +90,7 @@ export default function Hero() {
 
                                         </div>
                                     </div>
-                                    <picture className='col-md-6'><img src={slides[slide].image} className='img-fluid' alt="iphone" /></picture>
+                                    <picture className='col-md-6'><img src={import.meta.env.BASE_URL + slides[slide].image} className='img-fluid' alt="iphone" /></picture>
                                 </div>
                                 <div className="d-flex justify-content-center mt-3">
                                   {
