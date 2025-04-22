@@ -46,7 +46,7 @@ export default function Form() {
             });
             setSuccess("Product updated successfully!");
             setTimeout(() => {
-                window.location.href = "#/dashboard"; // Use HashRouter-compatible URL
+                window.location.hash = "#/dashboard";
             }, 2000);
         } catch (error) {
             setError(error.response?.status === 404 ? "Product not found. Please check the product ID." : error.message || "An error occurred while updating the product.");
