@@ -7,7 +7,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function Dashboard() {
-    const [products, setProducts] = useState([]);
+    const [allProducts, setAllProducts] = useState([]); // Store the original product list
+    const [products, setProducts] = useState([]); // Store the filtered product list
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [deleteModal, setDeleteModal] = useState({ isVisible: false, productId: null });
@@ -24,7 +25,8 @@ export default function Dashboard() {
     const getProducts = async () => {
         try {
             const data = await fetchProducts();
-            setProducts(data);
+            setAllProducts(data); // Save the original product list
+            setProducts(data); // Initialize the filtered product list
             setLoading(false);
         } catch (error) {
             setError(error.message);
@@ -33,37 +35,19 @@ export default function Dashboard() {
     };
 
     useEffect(() => {
-        // const getProducts = async () => {
-        //     try {
-        //         const data = await fetchProducts();
-        //         setProducts(data);
-        //         setLoading(false);
-        //     } catch (error) {
-        //         setError(error.message);
-        //         setLoading(false);
-        //     }
-        // };
         getProducts();
     }, []);
 
     useEffect(() => {
         if (debouncedSearchTerm) {
-            const filteredProducts = products.filter(product =>
+            const filteredProducts = allProducts.filter(product =>
                 product.name.toLowerCase().includes(debouncedSearchTerm.toLowerCase())
             );
             setProducts(filteredProducts);
         } else {
-            const getProducts = async () => {
-                try {
-                    const data = await fetchProducts();
-                    setProducts(data);
-                } catch (error) {
-                    setError(error.message);
-                }
-            };
-            getProducts();
+            setProducts(allProducts); // Reset to the original product list
         }
-    }, [debouncedSearchTerm]);
+    }, [debouncedSearchTerm, allProducts]);
 
     const handleDelete = async () => {
         if (!deleteModal.productId) return;
