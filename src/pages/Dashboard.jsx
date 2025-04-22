@@ -17,7 +17,7 @@ export default function Dashboard() {
     const debouncedSearchTerm = useDebounce(searchTerm, 500); 
     const isURL = (str) => /^(https?:\/\/)/.test(str);
     const getImageSource = (imagePath) => {
-        return isURL(imagePath) ? imagePath : `${import.meta.env.BASE_URL}assets/images/${imagePath}.png`;
+        return isURL(imagePath) ? imagePath : `/assets/images/${imagePath}.png`;
     };
 
 
@@ -151,7 +151,13 @@ export default function Dashboard() {
                                                     </svg> View
                                                 </button>
 
-                                                <button className="btn btn-warning btn-sm" onClick={() => window.location.href = `/form?id=${product.id}`}>
+                                                <button
+                                                    className="btn btn-warning btn-sm"
+                                                    onClick={() => {
+                                                        console.log(`/form?id=${product.id}`); // Debugging
+                                                        window.location.href = `/form?id=${product.id}`;
+                                                    }}
+                                                >
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706l-1.538 1.538-2.12-2.12 1.538-1.538a.5.5 0 0 1 .707 0l1.414 1.414ZM10.854 3.146l-8.5 8.5A.5.5 0 0 0 2 12v2.5a.5.5 0 0 0 .5.5H5a.5.5 0 0 0 .354-.146l8.5-8.5-2.12-2.12Z" />
                                                     </svg> Edit
