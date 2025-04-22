@@ -21,7 +21,11 @@
     background-color: white;
 }
 .poster-btn {
-    background-color: #00FF66;
+    background-color: #00FF66 !important;
+}
+.poster-btn:hover {
+    background-color: white !important;
+    color: #00FF66 !important;
 }
 @media (max-width: 476px) {
     .poster-circle {
