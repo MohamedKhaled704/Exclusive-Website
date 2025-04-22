@@ -55,11 +55,23 @@ export default function Form() {
         }
     };
 
+    const isValidImagePath = (path) => {
+        const isURL = /^(https?:\/\/).+(\.png|\.jpg|\.jpeg|\.gif)?(\?.*)?$/i.test(path); 
+        const isRelativePath = /^[a-zA-Z0-9_\-/]+(\.png|\.jpg|\.jpeg|\.gif)$/i.test(path);
+        return isURL || isRelativePath;
+    };
+
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
         setError(null);
         setSuccess(null);
+
+        if (!isValidImagePath(productData.imageName)) {
+            setError("Invalid image path. Please provide a valid URL or relative path.");
+            setLoading(false);
+            return;
+        }
 
         try {
             await addProduct({
@@ -93,7 +105,7 @@ export default function Form() {
     };
 
     useEffect(() => {
-        const id = new URLSearchParams(window.location.hash.split('?')[1]).get("id"); // Extract `id` from hash-based URL
+        const id = new URLSearchParams(window.location.hash.split('?')[1]).get("id");
         if (id) {
             setIsUpdate(true);
             setProductId(id);
@@ -185,7 +197,6 @@ export default function Form() {
                                 name="imageName"
                                 value={productData.imageName}
                                 onChange={handleInputChange}
-                                required
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">
