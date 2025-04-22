@@ -93,7 +93,7 @@ export default function Form() {
     };
 
     useEffect(() => {
-        const id = new URLSearchParams(window.location.search).get("id");
+        const id = new URLSearchParams(window.location.hash.split('?')[1]).get("id"); // Extract `id` from hash-based URL
         if (id) {
             setIsUpdate(true);
             setProductId(id);

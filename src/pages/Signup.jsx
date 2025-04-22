@@ -45,7 +45,7 @@ export default function Signup() {
             <Header />
             <div className="container-fluid my-5 p-0">
                 <div className="d-flex gap-5">
-                    <picture><img className="img-fluid rounded-2" src="/src/assets/images/dl.beatsnoop 1.png" alt="signup" /></picture>
+                    <picture><img className="img-fluid rounded-2" src={import.meta.env.BASE_URL + "/assets/images/dl.beatsnoop 1.png"} alt="signup" /></picture>
                     <div className="d-flex flex-column gap-4 w-50 p-5">
                         <div className="signup-head">
                             <h2>Create an account</h2>

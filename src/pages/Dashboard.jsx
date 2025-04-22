@@ -154,8 +154,8 @@ export default function Dashboard() {
                                                 <button
                                                     className="btn btn-warning btn-sm"
                                                     onClick={() => {
-                                                        console.log(`/form?id=${product.id}`); // Debugging
-                                                        window.location.href = `/form?id=${product.id}`;
+                                                        console.log(`#/form?id=${product.id}`); // Debugging
+                                                        window.location.href = `#/form?id=${product.id}`; // Use HashRouter-compatible URL
                                                     }}
                                                 >
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
